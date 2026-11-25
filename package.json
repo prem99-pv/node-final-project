@@ -1,0 +1,24 @@
+{
+  "name": "multi-doctor-clinic-mern",
+  "version": "1.0.0",
+  "description": "Full Stack Multi-Doctor Clinic Website built with MERN Stack (MongoDB, Express, React, Node.js)",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "mern",
+    "multi-doctor",
+    "clinic",
+    "healthcare",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
